@@ -15,7 +15,10 @@ Bu iOS uygulaması, kullanıcıların gerçek zamanlı hava durumu bilgilerini g
 
 ## Ekran Görüntüleri
 
-![](https://i.hizliresim.com/33mgmk0.gif)
+[DEMO](https://i.hizliresim.com/33mgmk0.gif)
+![](https://i.hizliresim.com/2ar6ar9.png)
+![]([https://i.hizliresim.com/dzckpta.png)
+
 ## Kurulum
 
 1. Bu repo'yu yerel makinenize klonlayın.
