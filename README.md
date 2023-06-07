@@ -16,8 +16,8 @@ Bu iOS uygulaması, kullanıcıların gerçek zamanlı hava durumu bilgilerini g
 ## Ekran Görüntüleri
 
 [DEMO](https://i.hizliresim.com/33mgmk0.gif)
-![](https://i.hizliresim.com/2ar6ar9.png)
-![]([https://i.hizliresim.com/dzckpta.png)
+[Görsel 1](https://i.hizliresim.com/2ar6ar9.png)
+[Görsel 2]([https://i.hizliresim.com/dzckpta.png)
 
 ## Kurulum
 
