@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		329F8A1F2A1FF8C60094782F /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329F8A1E2A1FF8C60094782F /* WeatherView.swift */; };
+		329F8A212A1FF9330094782F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329F8A202A1FF9330094782F /* ModelData.swift */; };
+		329F8A232A1FF9660094782F /* WeatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 329F8A222A1FF9660094782F /* WeatherData.json */; };
+		329F8A252A1FFA970094782F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329F8A242A1FFA970094782F /* Extensions.swift */; };
+		329F8A282A20047A0094782F /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329F8A272A20047A0094782F /* WeatherRow.swift */; };
+		32DFD77429ED617C005BF9B2 /* HavaDurumuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFD77329ED617C005BF9B2 /* HavaDurumuApp.swift */; };
+		32DFD77629ED617C005BF9B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFD77529ED617C005BF9B2 /* ContentView.swift */; };
+		32DFD77829ED617D005BF9B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DFD77729ED617D005BF9B2 /* Assets.xcassets */; };
+		32DFD77B29ED617D005BF9B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DFD77A29ED617D005BF9B2 /* Preview Assets.xcassets */; };
+		32DFD78329ED62E2005BF9B2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFD78229ED62E2005BF9B2 /* LocationManager.swift */; };
+		32DFD78629ED664D005BF9B2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFD78529ED664D005BF9B2 /* WelcomeView.swift */; };
+		32DFD78829ED695D005BF9B2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFD78729ED695D005BF9B2 /* LoadingView.swift */; };
+		32DFD78A29ED72F9005BF9B2 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFD78929ED72F9005BF9B2 /* WeatherManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		329F8A1E2A1FF8C60094782F /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		329F8A202A1FF9330094782F /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		329F8A222A1FF9660094782F /* WeatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherData.json; sourceTree = "<group>"; };
+		329F8A242A1FFA970094782F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		329F8A272A20047A0094782F /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		32DFD77029ED617C005BF9B2 /* HavaDurumu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HavaDurumu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DFD77329ED617C005BF9B2 /* HavaDurumuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavaDurumuApp.swift; sourceTree = "<group>"; };
+		32DFD77529ED617C005BF9B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32DFD77729ED617D005BF9B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32DFD77A29ED617D005BF9B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32DFD78229ED62E2005BF9B2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		32DFD78529ED664D005BF9B2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		32DFD78729ED695D005BF9B2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		32DFD78929ED72F9005BF9B2 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32DFD76D29ED617C005BF9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329F8A262A20042C0094782F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				329F8A272A20047A0094782F /* WeatherRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		32DFD76729ED617C005BF9B2 = {
+			isa = PBXGroup;
+			children = (
+				32DFD77229ED617C005BF9B2 /* HavaDurumu */,
+				32DFD77129ED617C005BF9B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32DFD77129ED617C005BF9B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32DFD77029ED617C005BF9B2 /* HavaDurumu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DFD77229ED617C005BF9B2 /* HavaDurumu */ = {
+			isa = PBXGroup;
+			children = (
+				32DFD77329ED617C005BF9B2 /* HavaDurumuApp.swift */,
+				32DFD78429ED646C005BF9B2 /* Views */,
+				32DFD78129ED62BD005BF9B2 /* Managers */,
+				329F8A262A20042C0094782F /* Components */,
+				329F8A242A1FFA970094782F /* Extensions.swift */,
+				32DFD77729ED617D005BF9B2 /* Assets.xcassets */,
+				32DFD77929ED617D005BF9B2 /* Preview Content */,
+			);
+			path = HavaDurumu;
+			sourceTree = "<group>";
+		};
+		32DFD77929ED617D005BF9B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32DFD77A29ED617D005BF9B2 /* Preview Assets.xcassets */,
+				329F8A202A1FF9330094782F /* ModelData.swift */,
+				329F8A222A1FF9660094782F /* WeatherData.json */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32DFD78129ED62BD005BF9B2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				32DFD78229ED62E2005BF9B2 /* LocationManager.swift */,
+				32DFD78929ED72F9005BF9B2 /* WeatherManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		32DFD78429ED646C005BF9B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32DFD77529ED617C005BF9B2 /* ContentView.swift */,
+				32DFD78729ED695D005BF9B2 /* LoadingView.swift */,
+				32DFD78529ED664D005BF9B2 /* WelcomeView.swift */,
+				329F8A1E2A1FF8C60094782F /* WeatherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32DFD76F29ED617C005BF9B2 /* HavaDurumu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DFD77E29ED617D005BF9B2 /* Build configuration list for PBXNativeTarget "HavaDurumu" */;
+			buildPhases = (
+				32DFD76C29ED617C005BF9B2 /* Sources */,
+				32DFD76D29ED617C005BF9B2 /* Frameworks */,
+				32DFD76E29ED617C005BF9B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HavaDurumu;
+			productName = HavaDurumu;
+			productReference = 32DFD77029ED617C005BF9B2 /* HavaDurumu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32DFD76829ED617C005BF9B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					32DFD76F29ED617C005BF9B2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 32DFD76B29ED617C005BF9B2 /* Build configuration list for PBXProject "HavaDurumu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32DFD76729ED617C005BF9B2;
+			productRefGroup = 32DFD77129ED617C005BF9B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32DFD76F29ED617C005BF9B2 /* HavaDurumu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32DFD76E29ED617C005BF9B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DFD77B29ED617D005BF9B2 /* Preview Assets.xcassets in Resources */,
+				329F8A232A1FF9660094782F /* WeatherData.json in Resources */,
+				32DFD77829ED617D005BF9B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32DFD76C29ED617C005BF9B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DFD78A29ED72F9005BF9B2 /* WeatherManager.swift in Sources */,
+				329F8A252A1FFA970094782F /* Extensions.swift in Sources */,
+				32DFD77629ED617C005BF9B2 /* ContentView.swift in Sources */,
+				32DFD77429ED617C005BF9B2 /* HavaDurumuApp.swift in Sources */,
+				32DFD78329ED62E2005BF9B2 /* LocationManager.swift in Sources */,
+				329F8A282A20047A0094782F /* WeatherRow.swift in Sources */,
+				32DFD78829ED695D005BF9B2 /* LoadingView.swift in Sources */,
+				329F8A212A1FF9330094782F /* ModelData.swift in Sources */,
+				329F8A1F2A1FF8C60094782F /* WeatherView.swift in Sources */,
+				32DFD78629ED664D005BF9B2 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32DFD77C29ED617D005BF9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32DFD77D29ED617D005BF9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32DFD77F29ED617D005BF9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HavaDurumu/Preview Content\"";
+				DEVELOPMENT_TEAM = UQV8CLH9WN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goktugyesil.HavaDurumu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32DFD78029ED617D005BF9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HavaDurumu/Preview Content\"";
+				DEVELOPMENT_TEAM = UQV8CLH9WN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goktugyesil.HavaDurumu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32DFD76B29ED617C005BF9B2 /* Build configuration list for PBXProject "HavaDurumu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DFD77C29ED617D005BF9B2 /* Debug */,
+				32DFD77D29ED617D005BF9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DFD77E29ED617D005BF9B2 /* Build configuration list for PBXNativeTarget "HavaDurumu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DFD77F29ED617D005BF9B2 /* Debug */,
+				32DFD78029ED617D005BF9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32DFD76829ED617C005BF9B2 /* Project object */;
+}
